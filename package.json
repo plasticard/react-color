@@ -27,7 +27,8 @@
     "docs-dist": "node ./scripts/docs-dist",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o .out",
-    "chromatic": "chromatic --project-token=9z2kaxsuz"
+    "chromatic": "chromatic --project-token=9z2kaxsuz",
+    "watch": "babel src -d es --watch"
   },
   "sideEffects": false,
   "homepage": "http://casesandberg.github.io/react-color/",
