@@ -109,7 +109,7 @@ export const Github = ({
 
   const handleChange = (hex, e) => onChange({ hex, source: 'hex' }, e);
   const handleDisabled = () => {};
-  // console.log('disabled', disabled);
+  // console.log('disabled', disabled);//
   return (
     <div style={styles.card} className={`github-picker ${className}`}>
       <div style={styles.triangleShadow} />
